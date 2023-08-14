@@ -6,23 +6,21 @@ header {
     padding: 10px 20px;
 }
 
-#logonatan {
+img {
 
     box-shadow: 4px 4px 0 #242325;
-
 }
 
 nav {
 
     text-align: right;
-
 }
 
 a {
 
     display: inline-flex;
     align-items: center ;
-    color: #F5F5F5;
+    color: #fafafa;
     font-size: 20px;
     font-family: "Fira Code", Arial, Arial, Helvetica, sans-serif;
     font-weight: 500;
@@ -30,7 +28,7 @@ a {
     margin-right: 30px;
 }
 
-#opcoes-header::before {
+a::before {
 
     content: "";
     display: inline-block;
@@ -40,18 +38,24 @@ a {
     margin-right: 10px;
 }
 
-#button {
+button {
 
     display: inline-block;
     background-color: #828282;
+    border: 0;
+    align-items: center;
+    color: #fafafa;
+    font-size: 20px;
+    font-family: "Fira Code", Arial, Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    text-decoration: none;
     padding: 18px 20px;
     box-shadow: 6px 6px 0 #242325;
     margin-right: 0;
     transition: transform 100ms linear, background-color 370ms ease;
-
 }
 
-#button:hover {
+button:hover {
 
     background-color: #7C5E99;
     transform: scale(1.05);
